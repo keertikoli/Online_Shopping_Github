@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.zalando.PracticeTestCases.ScreenshotPracactice">
+        <methods>
+          <include name="methodTearDown"/>
+          <include name="classsetUp"/>
+          <include name="screenshot"/>
+          <include name="methodSetUp1"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.zalando.PracticeTestCases.ScreenshotPracactice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

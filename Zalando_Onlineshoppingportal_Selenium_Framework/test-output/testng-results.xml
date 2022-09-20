@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[testScript3 Current thread Id is 1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-20T12:44:22 IST" name="Suite" finished-at="2022-09-20T12:44:30 IST" duration-ms="8361">
+    <groups>
+      <group name="sanity">
+        <method signature="TestNgExecution3.testScript3(java.lang.reflect.Method)[pri:0, instance:org.zalando.PracticeTestCases.TestNgExecution3@1d2adfbe]" name="testScript3" class="org.zalando.PracticeTestCases.TestNgExecution3"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-09-20T12:44:22 IST" name="Test" finished-at="2022-09-20T12:44:30 IST" duration-ms="8361">
+      <class name="org.zalando.PracticeTestCases.TestNgExecution3">
+        <test-method is-config="true" signature="classsetUp()[pri:0, instance:org.zalando.PracticeTestCases.TestNgExecution3@1d2adfbe]" started-at="2022-09-20T12:44:22 IST" name="classsetUp" finished-at="2022-09-20T12:44:29 IST" duration-ms="7114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classsetUp -->
+        <test-method is-config="true" signature="methodSetUp1()[pri:0, instance:org.zalando.PracticeTestCases.TestNgExecution3@1d2adfbe]" started-at="2022-09-20T12:44:29 IST" name="methodSetUp1" finished-at="2022-09-20T12:44:30 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp1 -->
+        <test-method signature="testScript3(java.lang.reflect.Method)[pri:0, instance:org.zalando.PracticeTestCases.TestNgExecution3@1d2adfbe]" started-at="2022-09-20T12:44:30 IST" name="testScript3" finished-at="2022-09-20T12:44:30 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.zalando.PracticeTestCases.TestNgExecution3.testScript3(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testScript3 Current thread Id is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testScript3 -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:org.zalando.PracticeTestCases.TestNgExecution3@1d2adfbe]" started-at="2022-09-20T12:44:30 IST" name="methodTearDown" finished-at="2022-09-20T12:44:30 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.zalando.PracticeTestCases.TestNgExecution3@1d2adfbe]" started-at="2022-09-20T12:44:30 IST" name="closeBrowser" finished-at="2022-09-20T12:44:30 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.zalando.PracticeTestCases.TestNgExecution3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
