@@ -80,7 +80,7 @@ public class BaseClass {
 	protected String remarkTextField;
 	protected TakesScreenshot ts;
 	protected JavaUtility javaUtility;
-
+// base class updated
 // @Parameters(value="browser")
 	@BeforeClass
 	public void classsetUp() {
