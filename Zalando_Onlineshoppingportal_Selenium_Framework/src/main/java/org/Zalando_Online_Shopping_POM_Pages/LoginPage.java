@@ -57,6 +57,7 @@ public class LoginPage {
 		passwordTextField.sendKeys(password);
 		confirmpasswordTextField.sendKeys(confirmpassword);
 	}
+	//changes reviewed and done by engg
 	//changes done in login page
 	public void signUp() {
 		signUpButton.click();
