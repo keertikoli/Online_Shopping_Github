@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class ScreenShotPractice2 extends BaseClass {
 	@Test
 public void Screenshot() {
-	ListenerImplementation.stest.assignAuthor("Keerti");
+ 	ListenerImplementation.stest.assignAuthor("Keerti");
 	ListenerImplementation.stest.assignCategory("Smoke");
 	ListenerImplementation.stest.info("Browser Launched Successfully");
 	ListenerImplementation.stest.info("LoginSuccessfully");
