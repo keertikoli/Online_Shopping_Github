@@ -28,6 +28,7 @@ public final class DataBaseUtility {
 	 * @return
 	 * @throws SQLException
 	 */
+	//conflict created
 	public List<String> getDataFromDatabase(String query, String columnName) throws SQLException {
 		Statement statement = connection.createStatement();
 		ResultSet result = statement.executeQuery(query);
